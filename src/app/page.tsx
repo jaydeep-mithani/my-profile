@@ -1,7 +1,12 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
-    <div className="text-5xl text-[#fff] text-center m-6 p-3 bg-[#00aabb] rounded-lg">
-      Jaydeep Mithani
-    </div>
+    <>
+      <Navbar />
+      <div className="text-5xl text-[#fff] text-center m-6 p-3 bg-[#00aabb] rounded-lg">
+        Jaydeep Mithani
+      </div>
+    </>
   );
 }

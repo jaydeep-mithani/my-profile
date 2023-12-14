@@ -1,3 +1,5 @@
+import { Box } from "@mui/material";
+
 const Background = ({
   path,
   children,
@@ -16,7 +18,7 @@ const Background = ({
       >
         <source src={path} type="video/mp4" />
       </video>
-      <div className="fixed w-full">{children}</div>
+      <Box className="fixed w-full">{children}</Box>
     </>
   );
 };

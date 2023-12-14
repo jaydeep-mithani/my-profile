@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className + " bg-[#333]"}>
         <Background path="videos/bg.mp4">{children}</Background>
       </body>
     </html>

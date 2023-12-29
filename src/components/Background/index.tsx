@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import styles from "./Background.module.css";
 
 const Background = ({
   path,
@@ -9,19 +9,7 @@ const Background = ({
 }) => {
   return (
     <>
-      <Box
-        sx={{
-          "&:after": {
-            content: "''",
-            width: "100%",
-            height: "100%",
-            position: "absolute",
-            top: 0,
-            left: 0,
-            background: "transparent",
-          },
-        }}
-      >
+      <div className={styles.bgCard}>
         <video
           autoPlay
           muted
@@ -31,8 +19,8 @@ const Background = ({
         >
           <source src={path} type="video/mp4" />
         </video>
-      </Box>
-      <Box className="fixed w-full">{children}</Box>
+      </div>
+      <div className="fixed w-full bg-transparent">{children}</div>
     </>
   );
 };

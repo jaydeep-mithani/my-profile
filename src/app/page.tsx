@@ -13,6 +13,7 @@ const Home = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 xl:gap-7">
         {profiles.map((profile) => (
           <Profile
+            key={profile.id}
             title={profile.title}
             icon={profile.icon}
             content={profile.content}

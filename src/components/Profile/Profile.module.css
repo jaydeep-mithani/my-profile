@@ -1,0 +1,19 @@
+.profilecard {
+  background-color: #f2f7fc;
+  max-height: 180px;
+  overflow: auto;
+  border-width: 12px 20px;
+  border-color: #f2f7fc;
+  transition: all 300ms linear;
+}
+.profilecard svg {
+  color: #ff9c1a;
+  transition: color 300ms linear;
+}
+.profilecard:hover {
+  background-color: #ffebd1;
+  border-color: #ffebd1;
+}
+.profilecard:hover svg {
+  color: #e80505;
+}

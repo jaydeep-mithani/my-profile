@@ -2,10 +2,10 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import "primereact/resources/themes/md-dark-indigo/theme.css";
+import "primereact/resources/themes/md-light-indigo/theme.css";
 import "primeicons/primeicons.css";
 
-import Background from "@/components/Background";
+import MasterPage from "./masterPage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +20,9 @@ export default function RootLayout({
   readonly children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className + " bg-[#003344]"}>
-        <Background path="videos/bg.mp4">{children}</Background>
+    <html lang="en" className="bg-tertiary">
+      <body className={inter.className}>
+        <MasterPage>{children}</MasterPage>
       </body>
     </html>
   );

@@ -1,0 +1,35 @@
+.hr::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(100%, 50%);
+  display: block;
+  width: 252px;
+  height: 2px;
+  background: linear-gradient(to right, #ff9c1a, #ec1b09);
+}
+
+@media screen and (max-width: 1174px) {
+  .hr::after {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .hr::after {
+    width: 252px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .hr::after {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .hr::after {
+    display: none;
+  }
+}

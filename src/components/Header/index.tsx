@@ -14,7 +14,7 @@ const Header = ({ onClick }: { onClick: any }) => {
     onClick((curr: boolean) => !curr);
   };
   return (
-    <div className="py-11 flex gap-4 items-center justify-between">
+    <div className="py-4 mb-3 lg:mb-0 lg:py-11 flex gap-4 items-center justify-between">
       <div className="flex gap-1 items-center">
         <h1 className={styles["first-name"] + " text-2xl "}>Jaydeep</h1>
         <h1 className={styles["last-name"] + " text-2xl text-[#ff9c1a]"}>

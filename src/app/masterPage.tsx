@@ -12,7 +12,7 @@ const MasterPage = ({ children }: { children: ReactNode }) => {
     <div className={`${isDarkMode ? "inverted" : ""}`}>
       <Container>
         <Header onClick={setIsDarkMode} />
-        <div className="pt-[42px] pb-[10px]">
+        <div className="pb-[10px]">
           <Menu />
           <div className="flex gap-5 flex-col lg:flex-row">
             <Overview />

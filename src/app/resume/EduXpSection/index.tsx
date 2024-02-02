@@ -65,7 +65,7 @@ const EduXpSection = ({
               </summary>
               <ul className="ml-4 text-justify text-sm list-disc">
                 {xp.points.map((point) => (
-                  <li>{point}</li>
+                  <li key={point}>{point}</li>
                 ))}
               </ul>
             </details>

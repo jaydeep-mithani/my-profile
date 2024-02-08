@@ -1,0 +1,8 @@
+.lang {
+  color: #fff;
+  border-radius: 20px;
+  transition: background 2s linear;
+  background: linear-gradient(to right, #ffad42, #cb0000 50%, #ffba60 50%);
+  background-size: 200%;
+  background-position: 100%;
+}

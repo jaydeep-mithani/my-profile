@@ -1,0 +1,20 @@
+.tabmenu.active {
+  color: #fa5252;
+}
+.tabmenu.active:after {
+  width: 100%;
+}
+.tabmenu:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #ff9c1a, #e80505);
+  transition: width 250ms linear;
+}
+.tabmenu:hover:after {
+  width: 100%;
+}

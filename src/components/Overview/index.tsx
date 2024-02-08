@@ -3,8 +3,6 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { socialLinks } from "@/Content/socialLinks";
 import { info } from "@/Content/info";
 
-import styles from "./Overview.module.css";
-
 const Overview = () => {
   return (
     <aside className="px-6 pb-7 lg:pb-16 pt-5 lg:pt-28 lg:max-w-[400px] bg-white lg:relative rounded-[20px] flex flex-wrap lg:block items-center gap-5">
@@ -40,15 +38,23 @@ const Overview = () => {
               key={i.id}
             >
               <div className="min-w-8">
-                <img className="mx-auto" src={i.iconPath} alt="" />
+                <img
+                  className="mx-auto exclude-negative"
+                  src={i.iconPath}
+                  alt=""
+                />
               </div>
               <div>
                 <h6 className="text-md sm:text-lg text-gray-400 font-medium">
                   {i.title}
                 </h6>
-                <p className="text-xs sm:text-md font-semibold break-words">
+                <a
+                  href={i.href}
+                  target="_blank"
+                  className="text-xs sm:text-md font-semibold break-words"
+                >
                   {i.value}
-                </p>
+                </a>
               </div>
             </div>
           ))}

@@ -50,3 +50,23 @@ body {
   background: linear-gradient(to right, #ff9c1a, #ec1b09);
   color: white;
 }
+
+button.theme-gradient,
+a.theme-gradient {
+  background: linear-gradient(
+    to right,
+    #ff9c1a,
+    #ec1b09,
+    #ff9c1a,
+    #ec1b09,
+    #ff9c1a
+  );
+  color: white;
+  background-size: 400%;
+  background-position: left;
+  transition: background 800ms linear;
+}
+button.theme-gradient:hover,
+a.theme-gradient:hover {
+  background-position: right;
+}

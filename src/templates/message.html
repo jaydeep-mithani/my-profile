@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Message</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .main-body {
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 100vh;
+      }
+      .container {
+        width: 60%;
+        margin: 3rem auto;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .title-bar {
+        background: linear-gradient(to right, #ff9c1a, #e80505);
+        padding: 10px 50px;
+        color: white;
+        font-size: 1.2rem;
+        text-align: right;
+        margin-bottom: 22px;
+      }
+      .title-bar a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+      }
+      h1 {
+        margin: 0;
+        margin-bottom: 28px;
+        text-align: center;
+      }
+      .label {
+        font-size: 1.2rem;
+      }
+      .name {
+        font-size: 1.5rem;
+      }
+      .msg {
+        margin: 20px;
+        border-radius: 12px;
+        background-color: #ffeed9;
+        padding: 22px 28px;
+        line-height: 24px;
+        text-align: justify;
+      }
+      @media screen and (max-width: 600px) {
+        .container {
+          width: 85%;
+          margin: 10px;
+        }
+        .msg {
+          padding: 20px;
+          margin: 10px;
+        }
+      }
+      @media screen and (max-width: 350px) {
+        .container {
+          width: 95%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="main-body"
+      style="
+        background: linear-gradient(to bottom, #f2f5f9 50%, #ff9c1a 50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <div class="container">
+        <div
+          class="title-bar"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+          "
+        >
+          <a href="`mailto:{{{email}}}`"> {{email}}</a>
+        </div>
+        <div style="padding: 0 30px">
+          <h1>
+            <span class="label">Message from,</span>
+            <span class="name" style="color: #ff9c1a">{{fullname}}</span>
+          </h1>
+          <h4
+            style="
+              margin: 0;
+              margin-bottom: 20px;
+              font-size: 1.2rem;
+              font-weight: 800;
+            "
+          >
+            {{subject}},
+          </h4>
+        </div>
+        <div class="msg">{{msg}}</div>
+      </div>
+    </div>
+  </body>
+</html>

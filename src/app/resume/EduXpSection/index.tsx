@@ -31,7 +31,11 @@ const EduXpSection = ({
     <div className="flex gap-6 flex-col md:flex-row lg:flex-col xl:flex-row mb-8">
       <div className="grow basis-0 flex flex-col gap-6">
         <div className="flex items-center gap-2">
-          <img src="./icons/education.png" alt="" />
+          <img
+            className="exclude-negative"
+            src="./icons/education.png"
+            alt=""
+          />
           <h1 className="text-[28px] font-medium">Education</h1>
         </div>
         {education.map((edu) => (
@@ -48,7 +52,7 @@ const EduXpSection = ({
       </div>
       <div className="grow basis-0 flex flex-col gap-6">
         <div className="flex items-center gap-2">
-          <img src="./icons/work.png" alt="" />
+          <img className="exclude-negative" src="./icons/work.png" alt="" />
           <h1 className="text-[28px] font-medium">Experience</h1>
         </div>
         {experience.map((xp) => (

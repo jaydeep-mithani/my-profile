@@ -1,0 +1,16 @@
+.card {
+  transition: background 300ms linear;
+  overflow: hidden;
+}
+.card img {
+  transition: all 300ms linear;
+}
+.card:hover img {
+  transform: scale(1.15);
+}
+.card:nth-child(even):hover {
+  background-color: #ffc982;
+}
+.card:nth-child(odd):hover {
+  background-color: #ffd599;
+}

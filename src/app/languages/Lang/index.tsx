@@ -15,7 +15,8 @@ const LangCard = ({
 }) => {
   const progress = useRef(null);
   useEffect(() => {
-    progress.current.style.backgroundPosition = 100 - scale + "%";
+    const prog = progress.current as any;
+    prog.style.backgroundPosition = 100 - scale + "%";
   }, [progress]);
   return (
     <div

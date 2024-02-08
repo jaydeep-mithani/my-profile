@@ -11,16 +11,18 @@ const Dialogue = ({
   title: string;
   onClose: any;
 }) => {
-  const dialogueRef = useRef("");
+  const dialogueRef = useRef(null);
 
   useEffect(() => {
     setTimeout(() => {
-      dialogueRef.current.style.height = "300px";
+      const dialogue = dialogueRef.current as any;
+      dialogue.style.height = "300px";
     }, 200);
   }, [dialogueRef]);
 
   const handleDialogueClose = () => {
-    dialogueRef.current.style.height = "0";
+    const dialogue = dialogueRef.current as any;
+    dialogue.style.height = "0";
     setTimeout(() => {
       onClose();
     }, 700);

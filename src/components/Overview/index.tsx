@@ -31,6 +31,14 @@ const Overview = () => {
         </div>
       </div>
       <div className="p-4 md:p-9 bg-[#f2f7fc] rounded-[20px] w-full">
+        <a
+          href="./download/resume.pdf"
+          className={`px-8 py-4 rounded-full lg:max-w-fit flex items-center justify-center gap-2 text-white mx-auto mb-4 theme-gradient`}
+          download={"./download/resume.pdf"}
+        >
+          <FontAwesomeIcon icon={faDownload} className="block" />
+          <span className="block">Resume</span>
+        </a>
         <div className="pb-5">
           {info.map((i) => (
             <div
@@ -59,14 +67,6 @@ const Overview = () => {
             </div>
           ))}
         </div>
-        <a
-          href="./download/resume.pdf"
-          className={`px-8 py-4 rounded-full lg:max-w-fit flex items-center justify-center gap-2 text-white mx-auto theme-gradient`}
-          download={"./download/resume.pdf"}
-        >
-          <FontAwesomeIcon icon={faDownload} className="block" />
-          <span className="block">Download</span>
-        </a>
       </div>
     </aside>
   );

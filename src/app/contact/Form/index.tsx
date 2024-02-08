@@ -193,8 +193,8 @@ const ContactForm = () => {
                           />
                         </div>
                         <div className="text-xl md:text-2xl font-semibold text-center">
-                          I couldn't send you an acknoledgement, but rest
-                          assured, I've recieved your message.
+                          I couldn&apos;t send you an acknoledgement, but rest
+                          assured, I&apos;ve recieved your message.
                         </div>
                       </div>
                     ),
@@ -224,8 +224,8 @@ const ContactForm = () => {
                     />
                   </div>
                   <div className="text-xl md:text-2xl font-semibold text-center">
-                    I'm looking into it, meanwhile please use another contact
-                    method. Thank you!
+                    I&apos;m looking into it, meanwhile please use another
+                    contact method. Thank you!
                   </div>
                 </div>
               ),
@@ -257,7 +257,7 @@ const ContactForm = () => {
             </div>
           </div>
         ),
-        title: "Something doesn't seem right.",
+        title: "Something doesn&apos;t seem right.",
       });
     }
   };

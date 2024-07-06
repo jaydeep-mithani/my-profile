@@ -15,4 +15,21 @@ export const experience = [
       "Communicated with clients on regular bases for daily updates and future descissions.",
     ],
   },
+  {
+    id: "hdm",
+    companyName: "Health Data Max (HDM)",
+    joinMonth: "February",
+    joinYear: 2024,
+    seperationMonth: "Present",
+    seperationYear: "",
+    jobTitle: "Software Developer - Full Stack",
+    points: [
+      "Developed responsive UI screens based on Figma references given, and implemented all related functionalities, and represented API response data in several forms using ReactJS & MaterialUI.",
+      "Developed RESTful APIs using NodeJs & ExpressJS to query MongoDB database and serve an appropriate response.",
+      "Migrated NodeJs APIs from using DynamoDB & Elasticsearch into using MongoDB for a single central database, and easier, and more performance efficient querying.",
+      "Led a small team in a technology migration mission for migrating the entire back-end from NodeJs to FASTapi tech stack.",
+      "Took ownership of the entire front-end of the HDM App. ",
+      "Communicated and collaborated with the team in a remote environment to kept updated with the developments.",
+    ],
+  },
 ];

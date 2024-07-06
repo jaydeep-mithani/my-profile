@@ -16,7 +16,7 @@ export const info = [
   {
     title: "Location",
     id: "location",
-    value: "Pune, Maharashtra",
+    value: "Ahmedabad, Gujarat",
     iconPath: "./icons/location.png",
   },
 ];

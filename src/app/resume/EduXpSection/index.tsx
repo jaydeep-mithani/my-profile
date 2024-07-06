@@ -15,7 +15,7 @@ interface experienceInterface {
   joinMonth: string;
   joinYear: number;
   seperationMonth: string;
-  seperationYear: number;
+  seperationYear: number | string;
   jobTitle: string;
   points: Array<string>;
 }

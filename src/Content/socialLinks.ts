@@ -9,7 +9,7 @@ export const socialLinks = [
   {
     icon: faLinkedinIn,
     id: "linkedin",
-    url: "https://www.linkedin.com/in/jaydeep-mithani-491b50272/",
+    url: "https://www.linkedin.com/in/jaydeep-mithani/",
     title: "LinkedIn",
     color: "#0077b5",
   },

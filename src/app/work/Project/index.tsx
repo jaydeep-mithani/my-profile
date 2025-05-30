@@ -20,7 +20,7 @@ const Project = ({
       onClick={handleProjectClick}
     >
       <div className="w-full overflow-hidden rounded-lg">
-        <img className="block mb-3 w-full" src={thumbnail} alt="" />
+        <img className="block mb-3 w-full h-auto" src={thumbnail} alt="" />
       </div>
       <h4 className="text-lg font-bold mb-1">{title}</h4>
       {Boolean(description.length) && (

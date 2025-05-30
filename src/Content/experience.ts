@@ -3,9 +3,9 @@ export const experience = [
     id: "xora",
     companyName: "Xora",
     joinMonth: "March",
-    joinYear: "2025",
+    joinYear: 2025,
     seperationMonth: "June",
-    seperationYear: "2025",
+    seperationYear: 2025,
     jobTitle: "Front End Developer",
     points: [
       "Solely developed a complex and inteutive proposal builder module with rich text editing capabilities, section adding features and reorganizing features.",

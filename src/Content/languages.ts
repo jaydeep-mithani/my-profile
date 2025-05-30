@@ -1,5 +1,5 @@
 export const languages = [
-  { id: "en", lang: "English", native: "English", level: "Fluent", scale: 95 },
+  { id: "en", lang: "English", native: "English", level: "Fluent", scale: 98 },
   {
     id: "fr",
     lang: "French",
@@ -14,6 +14,6 @@ export const languages = [
     level: "Beginner",
     scale: 20,
   },
-  { id: "hi", lang: "Hindi", native: "हिंदी", level: "Fluent", scale: 85 },
-  { id: "gu", lang: "Gujarati", native: "ગુજરાતી", level: "Fluent", scale: 90 },
+  { id: "hi", lang: "Hindi", native: "हिंदी", level: "Fluent", scale: 90 },
+  { id: "gu", lang: "Gujarati", native: "ગુજરાતી", level: "Fluent", scale: 94 },
 ];

@@ -53,7 +53,7 @@ export const projects = [
       "A simple static HTML template, developed solely by yours truely, using only HTML & CSS with a small hint of javascript.",
     thumbnail:
       "https://res.cloudinary.com/dc6bzvxz8/image/upload/v1748615718/nft_qqci9i.png",
-    url: "https://res.cloudinary.com/dc6bzvxz8/image/upload/v1748615718/nft_qqci9i.png",
+    url: "https://jaydeep-mithani.github.io/NFT-Marketplace-Template/",
     category: "web",
   },
   {

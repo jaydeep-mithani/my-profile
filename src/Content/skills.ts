@@ -9,6 +9,7 @@ import {
   faJira,
   faJs,
   faNode,
+  faOctopusDeploy,
   faPhp,
   faPython,
   faReact,
@@ -67,6 +68,13 @@ export const techSkills = [
   { icon: "", id: "graphql", text: "GraphQL" },
   { icon: "", id: "redux", text: "Redux" },
   { icon: faFire, id: "fcm", text: "FCM" },
+  { icon: "", id: "jest", text: "Jest" },
+  {
+    icon: faOctopusDeploy,
+    id: "reacttestinglibrary",
+    text: "React Testing Library",
+  },
+  { icon: "", id: "cypress", text: "Cypress" },
 ];
 
 export const softSkills = [

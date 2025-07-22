@@ -40,8 +40,8 @@ export const experience = [
     companyName: "Bonzark Technologies",
     joinMonth: "July",
     joinYear: 2022,
-    seperationMonth: "November",
-    seperationYear: 2023,
+    seperationMonth: "February",
+    seperationYear: 2024,
     jobTitle: "Full Stack Developer",
     points: [
       "Developed and maintained scalable web applications using the MERN stack, ensuring 99.9% uptime and seamless performance under high traffic.",
